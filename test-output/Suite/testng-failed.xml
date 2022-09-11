@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="3" parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="3" parallel="tests" name="Test(failed)">
+    <classes>
+      <class name="selenium.distributedParallelOnMethods1">
+        <methods>
+          <include name="distbTest"/>
+        </methods>
+      </class> <!-- selenium.distributedParallelOnMethods1 -->
+      <class name="selenium.distributedParallelOnMethods">
+        <methods>
+          <include name="distbTest"/>
+        </methods>
+      </class> <!-- selenium.distributedParallelOnMethods -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
